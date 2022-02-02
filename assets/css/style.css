@@ -14,8 +14,6 @@ body {
 
 /* header styling */
 
-
-
 #logo {
     margin-left: 3%;
     float: left;
@@ -37,7 +35,7 @@ body {
 
 #header {
     height: 100px;
-    margin-bottom: 3%;
+    padding-bottom: 2%;
     letter-spacing: 4px;
     line-height: 100px;
 }
@@ -50,7 +48,6 @@ body {
 #header-menu {
     float: right;
     margin-right: 2%;
-    
 }
 
 #header-menu li {
@@ -67,11 +64,21 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* introduction styling */
+/* main body styling */
 
-.intro {
+.sections {
     width: 80%;
+    padding: 2%;
     margin: auto;
-    background-color: #e1f5d9;
-    
 }
+
+#intro {
+    background-color: #dbf5d1;
+
+}
+
+#quiz {
+    background-color: #dbf5d1;
+
+}
+
