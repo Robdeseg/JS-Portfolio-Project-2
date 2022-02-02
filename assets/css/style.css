@@ -82,3 +82,68 @@ body {
 
 }
 
+#spacing {
+    height: 30px;
+}
+
+/* footer styling */
+
+#footer {
+    position: relative;
+    height: 150px;
+    padding-top: 2%;
+    background-color: #f8dedd;
+}
+#footer li {
+    list-style-type: none;
+    padding: 3px;
+}
+
+#footer a:hover {
+    color: #91918d;
+}
+
+.leftside {
+    float: left;
+    margin-left: 3%;
+    width: 25%;
+}
+
+.rightside {
+    float: right;
+    text-align: right;
+    margin-right: 3%;
+    width: 25%;
+}
+
+#copyright {
+    position: absolute;
+    text-align: center;
+    left: 12%;
+    bottom: 10%;
+}
+
+#mail-list {
+    color: #3a3a3a;
+    border: .5px solid;
+    border-color: #3a3a3a;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#email {
+    text-align: center;
+    background-color: #f8dedd;
+}
+
+#submit {
+    background-color: #f8dedd;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+#submit:hover {
+    color: #91918d;
+}
+
