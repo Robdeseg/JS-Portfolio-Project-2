@@ -14,18 +14,32 @@ body {
 
 /* header styling */
 
+
+
 #logo {
     margin-left: 3%;
+    float: left;
+    width: 40%;
 }
 
 #logo-text {
     font-family: short stack, cursive;
+    color: #b2f19a;
+    font-size: 300%;
+    line-height: 100px;
 }
 
 #logo-image {
     float: left;
     height: 100px;
     width: 100px;
+}
+
+#header {
+    height: 100px;
+    margin-bottom: 3%;
+    letter-spacing: 4px;
+    line-height: 100px;
 }
 
 #header a {
@@ -35,12 +49,14 @@ body {
 
 #header-menu {
     float: right;
-    margin-right: 3%;
+    margin-right: 2%;
+    
 }
 
 #header-menu li {
     float: left;
     list-style-type: none;
+    margin-right: 30px;
 }
 
 #header-menu a:hover {
@@ -53,3 +69,9 @@ body {
 
 /* introduction styling */
 
+.intro {
+    width: 80%;
+    margin: auto;
+    background-color: #e1f5d9;
+    
+}
