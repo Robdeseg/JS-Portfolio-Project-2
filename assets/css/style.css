@@ -9,8 +9,47 @@
 
 body {
     font-family: quicksand, sans-serif;
+    color: #3a3a3a;
 }
 
-.logo {
+/* header styling */
+
+#logo {
+    margin-left: 3%;
+}
+
+#logo-text {
     font-family: short stack, cursive;
 }
+
+#logo-image {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+#header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-menu {
+    float: right;
+    margin-right: 3%;
+}
+
+#header-menu li {
+    float: left;
+    list-style-type: none;
+}
+
+#header-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* introduction styling */
+
