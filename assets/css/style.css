@@ -66,19 +66,38 @@ body {
 
 /* main body styling */
 
-.sections {
+#intro, #quiz {
     width: 80%;
     padding: 2%;
     margin: auto;
+    background-color: #dbf5d1;
+}
+
+.sections {
+    width: 50%;
+    padding: 2%;
+    text-align: justify;
+}
+
+#facts {
+margin-left: 10%;
+}
+
+#facts-text {
+    
+}
+
+#facts-image {
+    float: right;
+    height: 250px;
 }
 
 #intro {
-    background-color: #dbf5d1;
 
 }
 
 #quiz {
-    background-color: #dbf5d1;
+    
 
 }
 
