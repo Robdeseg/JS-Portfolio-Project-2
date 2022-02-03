@@ -74,10 +74,11 @@ body {
 }
 
 .section-headings {
-    width: 60%;
+    width: 70%;
     margin: auto;
     text-align: justify;
     line-height: 200%;
+    padding-top: 3%;
 }
 
 .lists {
@@ -116,36 +117,49 @@ padding-bottom: 5%;
 #footer {
     position: relative;
     height: 150px;
-    padding-top: 2%;
+    padding-top: 1%;
     background-color: #f8dedd;
 }
+
 #footer li {
     list-style-type: none;
-    padding: 3px;
+    padding: 5px;
 }
 
 #footer a:hover {
     color: #91918d;
 }
 
-.leftside {
-    float: left;
-    margin-left: 3%;
-    width: 25%;
+#footer a {
+    text-decoration: none;
+    color: #3a3a3a;
 }
 
+.leftside {
+        width: 60%;
+        margin: auto;
+        text-align: justify;
+        line-height: 200%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 120%;
+    }
+
 .rightside {
-    float: right;
-    text-align: right;
-    margin-right: 3%;
-    width: 25%;
+    width: 60%;
+    margin: auto;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #copyright {
-    position: absolute;
     text-align: center;
     left: 12%;
-    bottom: 10%;
+    margin-top: 3%;
+    padding-bottom: 1%;
 }
 
 #mail-list {
@@ -171,4 +185,6 @@ padding-bottom: 5%;
 #submit:hover {
     color: #91918d;
 }
+
+
 
