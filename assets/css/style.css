@@ -73,27 +73,33 @@ body {
     background-color: #dbf5d1;
 }
 
-.sections {
-    width: 50%;
-    padding: 2%;
+.section-headings {
+    width: 60%;
+    margin: auto;
     text-align: justify;
+    line-height: 200%;
 }
 
-#facts {
-margin-left: 10%;
+.lists {
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#facts-text {
-    
+.list-image {
+    padding-left: 5%;
 }
 
-#facts-image {
-    float: right;
+.list-image img {
     height: 250px;
 }
 
 #intro {
-
+padding-bottom: 5%;
 }
 
 #quiz {
