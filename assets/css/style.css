@@ -67,9 +67,11 @@ body {
 
 #intro, #quiz {
     width: 80%;
-    padding: 2%;
+    padding: 3%;
     margin: auto;
     background-color: #dbf5d1;
+    text-align: justify;
+    line-height: 200%;
 }
 
 .section-headings {
@@ -96,16 +98,7 @@ body {
 
 .list-image img {
     height: 250px;
-}
-
-#intro {
-padding-bottom: 5%;
-}
-
-#quiz {
-    
-
-}
+}   
 
 #spacing {
     height: 30px;
