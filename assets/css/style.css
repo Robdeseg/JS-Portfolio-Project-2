@@ -189,7 +189,13 @@ width: 200px;
     padding-bottom: 150px;  
   }
 
-#footer {
+  #footer-1 {
+    position: relative;
+    height: 150px;  
+    background-color: #fcf3f3; 
+}
+
+#footer-2 {
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -197,16 +203,30 @@ width: 200px;
     background-color: #fcf3f3; 
 }
 
-#footer li {
+#footer-1 li {
     list-style-type: none;
     padding: 5px;
 }
 
-#footer a:hover {
+#footer-1 a:hover {
     color: #91918d;
 }
 
-#footer a {
+#footer-1 a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#footer-2 li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#footer-2 a:hover {
+    color: #91918d;
+}
+
+#footer-2 a {
     text-decoration: none;
     color: #3a3a3a;
 }
