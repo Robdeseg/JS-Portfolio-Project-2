@@ -143,6 +143,47 @@ margin: auto;
 padding-bottom: 2%;
 }
 
+/* contact styling */
+
+#contact-form {
+    width: 400px;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.name-and-email {
+    color: #3a3a3a;
+    border: .5px solid;
+    border-color: #3a3a3a;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: quicksand, sans-serif;
+    font-size: 105%;
+}
+
+#submit-2 {
+    color: #3a3a3a;
+    border: 1px solid;
+    border-color: #3a3a3a;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-family: quicksand, sans-serif;
+    font-size: 105%;
+    background-color: white;
+}
+
+#submit-2:hover {
+    color: #91918d;
+}
+
+#serivces-required {
+    font: 105%;
+    margin-top: 5px;
+    outline: none;
+    padding: 5px;
+}
+
 /* footer styling */
 
 #footer {
@@ -203,13 +244,13 @@ padding-bottom: 2%;
 
 #email {
     text-align: center;
-   
 }
 
 #submit {
     padding: 5px;
     margin-top: 10px;
     border-radius: 12px;
+    background-color: white;
 }
 
 #submit:hover {
