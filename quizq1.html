@@ -23,7 +23,7 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="quizq1.html">Take Quiz</a>
+                <a href="quiz.html">Take Quiz</a>
             </li>
             <li>
                 <a href="contact.html" class="active">Contact Us</a>
@@ -31,38 +31,38 @@
         </ul>
     </nav>
 </header>
-<div id="intro">
-    <h1>Get In Touch</h1>
-    <br>
-<p>There is no small enquiry, when it comes to mental health. No matter what your situation in life, if you are looking for help then we are here to find it for you. Feel free to call on the number below. Alternatively, if you would rather drop us a line by email fill in the form and we will get back to you as soon as possible.</p>
+<div id="past-two-weeks">
+    <h1>In the past two weeks, how often have you:</h1>
 </div>
-<div id="spacing"></div>
-<div id="form-container">
-<div id="tel">
-    <h2>Call us:</h2>
-    <br>
-    <p>020 7472 5513</p>
-    <img class="contact-image" src="assets/images/allok.png" alt="a cartoon brain giving the all ok signal">
-</div>
-<div class="gap"></div>
-    <div id="address">
-        <h2>Find Us:</h2>
-        <br>
-        <p>Mind Aid</p>
-        <p>53 St Mary's Way</p>
-        <p>London</p>
-        <p>SE24 7AA</p>
-        <img class="contact-image" src="assets/images/looking.png" alt="a cartoon brain looking through a magnifying glass">
+<table id="question">
+    <tr>
+        <td>
+            <h3>Had little interest or pleasure in doing things?</h3>
+        </td>
+        <td>
+            <form id="answer1" class="answers" method="post">
+            <fieldset>
+                <input id="not-at-all" type="radio" name="answer" value="not-at-all" checked required>
+                <label for="not-at-all">Not at all</label>
+                <br>
+                <input id="several-days" type="radio" name="answer" value="several-days">
+                <label for="several-days">Several days</label>
+                <br>
+                <input id="more-than-half" type="radio" name="answer" value="more-than-half">
+                <label for="more-than-half">More than half the days</label>
+                <br>
+                <input id="every-day" type="radio" name="answer" value="every-day">
+                <label for="every-day">Every day</label>
+            </fieldset>
+            </form>
+        </td>
+    </tr>
+</table>
+<div id="submit-button"> 
+    <a href="quizq2.html">        
+            <h3 id="submit-text">SUBMIT</h3>
+        </a>
     </div>
-    <div class="gap"></div>
-  <div id="email-2">
-    <h2>Email Us:</h2>
-    <br>
-    <p>info@mindaid.com</p>
-    <img class="contact-image" src="assets/images/excited.png" alt="a cartoon brain flexing its muscles">
-  </div>
-</div>
-</div>
 <footer id="footer-2">
     <div class=leftside>
     <ul id="social-networks" class="leftside">

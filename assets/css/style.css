@@ -178,6 +178,52 @@ width: 200px;
     width: 300px;
 }
 
+/*questionaire styling */
+
+#past-two-weeks {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#question {
+    width: 60%;
+    padding: 3%;
+    margin: auto;
+    background-color: #dbf5d1;
+    text-align: justify;
+    line-height: 200%;
+}
+
+.answers {
+    font-size: 125%;
+}
+
+#submit-button a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#submit-button {
+    width: 100px;
+    margin-left: 65%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    }
+
+    #submit-text {
+        text-decoration: none;
+        text-align: center;
+        line-height: 20px;
+        border: 1px solid;
+        border-color: #3a3a3a;
+        border-radius: 25px;
+        background: #dbf5d1;
+        padding: 20px;
+        width: 100px;
+        height: 20px;
+    }
+
 /* footer styling */
 
 #page-container {
