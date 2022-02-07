@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+<header id="header">
+    <div id="logo">
+    <a href="index.html">
+        <img id="logo-image" src="assets/images/Main Logo.png" alt="a cartoon brain smiling">
+        <h1 id="logo-text">MIND AID</h1>
+    </div>
+    </a>
+    <nav id="header-menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="quizq1.html" class="active">Take Quiz</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="past-two-weeks">
+    <h1>In the past two weeks, how often have you:</h1>
+</div>
+<table id="question">
+    <tr>
+        <td>
+            <h3>Felt tired or suffered from a lack of energy?</h3>
+        </td>
+        <td>
+            <form id="answer4" class="answers" method="post">
+            <fieldset>
+                <input id="not-at-all" type="radio" name="answer" value="not-at-all" checked required>
+                <label for="not-at-all">Not at all</label>
+                <br>
+                <input id="several-days" type="radio" name="answer" value="several-days">
+                <label for="several-days">Several days</label>
+                <br>
+                <input id="more-than-half" type="radio" name="answer" value="more-than-half">
+                <label for="more-than-half">More than half the days</label>
+                <br>
+                <input id="every-day" type="radio" name="answer" value="every-day">
+                <label for="every-day">Every day</label>
+            </fieldset>
+            </form>
+        </td>
+    </tr>
+</table>
+<div id="submit-button"> 
+    <a href="quizq5.html">        
+            <h3 id="submit-text">SUBMIT</h3>
+        </a>
+    </div>
+<footer id="footer-2">
+    <div class=leftside>
+    <ul id="social-networks" class="leftside">
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="visit our Facebook page (opens in new tab)"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="visit our Instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="visit our Twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
+        </li>
+    </ul>
+    </div>
+    <div class="rightside">
+            <form method="post">
+                <label for="email">&nbsp&nbsp&nbspJoin Our Mailing List:</label>
+                <br>
+            <span id="mail-list">
+                <input type="email" id="email" placeholder="enter email address" required>
+                <input type="submit" id="submit" value="→">
+            </span>
+            </form>
+        </div>
+            <div id="copyright">
+    <p>© Copyright 2022. MIND AID is the registered trademark. All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a></p>
+</div>
+</footer>
+</div>
+    <script src="assets/js/script.js"></script>
+    <!-- font awesome script--> 
+    <script src="https://kit.fontawesome.com/6babf3fb28.js" crossorigin="anonymous"></script>
+</body>
+</html>
