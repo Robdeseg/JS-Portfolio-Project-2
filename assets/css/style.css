@@ -150,8 +150,8 @@ padding-bottom: 3%;
     align-items: center;
     width: 800px;
     margin: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #tel {
@@ -195,8 +195,14 @@ width: 200px;
     line-height: 200%;
 }
 
+.question-container {
+    width: 60%;
+    padding: 15px;
+}
+
 .answers {
     font-size: 125%;
+    padding: 15px;
 }
 
 #submit-button a {
@@ -223,6 +229,40 @@ width: 200px;
         width: 100px;
         height: 20px;
     }
+
+    #result {
+        width: 60%;
+        padding: 3%;
+        margin: auto;
+        background-color: #dbf5d1;
+        text-align: justify;
+        line-height: 200%;
+    }
+
+    #get-in-touch a {
+        text-decoration: none;
+        color: #3a3a3a;
+    }
+
+    #get-in-touch {
+        width: 150px;
+        margin-left: 65%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        }
+
+        #get-in-touch-text {
+            text-decoration: none;
+            text-align: center;
+            line-height: 20px;
+            border: 1px solid;
+            border-color: #3a3a3a;
+            border-radius: 25px;
+            background: #dbf5d1;
+            padding: 20px;
+            width: 150px;
+            height: 20px;
+        }
 
 /* footer styling */
 
