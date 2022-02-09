@@ -178,7 +178,7 @@ width: 200px;
     width: 300px;
 }
 
-/*questionaire styling */
+/* questionaire styling */
 
 #past-two-weeks {
     margin-left: 15%;
@@ -197,37 +197,26 @@ width: 200px;
 
 .question-container {
     width: 65%;
-    padding: 15px;
+    padding: 10px;
 }
 
 .answers {
     font-size: 125%;
-    padding-left: 15px;
-}
-
-#submit-button a {
-    text-decoration: none;
-    color: #3a3a3a;
+    padding-left: 30px;
 }
 
 #submit-button {
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
     width: 100px;
-    margin-left: 65%;
-    padding-bottom: 1%;
-    padding-top: 3%;
-    }
-
-    #submit-text {
-        text-decoration: none;
-        text-align: center;
-        line-height: 20px;
-        border: 1px solid;
-        border-color: #3a3a3a;
-        border-radius: 25px;
-        background: #dbf5d1;
-        padding: 20px;
-        width: 100px;
-        height: 20px;
+    border: 1px solid;
+    border-color: #3a3a3a;
+    border-radius: 25px;
+    background: #dbf5d1;
+    padding: 10px;
+    margin-top: 15%;
+    
     }
 
     #result {
@@ -283,6 +272,7 @@ width: 200px;
 
   #footer-1 {
     position: relative;
+    width: 100%;
     height: 150px;  
     background-color: #fcf3f3; 
 }
@@ -332,6 +322,7 @@ width: 200px;
         align-items: center;
         justify-content: center;
         font-size: 120%;
+        padding-top: 5px;
     }
 
 .rightside {
@@ -346,16 +337,18 @@ width: 200px;
 #copyright {
     text-align: center;
     left: 12%;
-    margin-top: 40px;
+    margin-top: 60px;
     padding-bottom: 10px;
+    bottom: 0;
 }
 
 #mail-list {
     color: #3a3a3a;
     border: .5px solid;
     border-color: #3a3a3a;
-    padding: 5px;
+    padding-right: 10px;
     margin-top: 5px;
+    margin-left: 10px;
 }
 
 #email {
@@ -364,13 +357,14 @@ width: 200px;
 }
 
 #submit-2 {
-    padding: 5px;
+    padding: 0;
     margin-top: 10px;
+    margin-left: 5px;
     border-radius: 12px;
     background-color: #fcf3f3 ;
 }
 
-#submit:hover {
+#submit-2:hover {
     color: #91918d;
 }
 
