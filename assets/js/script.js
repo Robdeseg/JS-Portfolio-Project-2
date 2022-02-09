@@ -1,8 +1,21 @@
+
 // track varaible across multiple file
 let score = localStorage.getItem('score');
 
-if (score) {
-  score = JSON.parse(score);
+if ("not-at-all") {
+  score = JSON.parse(0);
+  console.log(score)
+}
+if ("several-days") {
+  score = JSON.parse(1);
+  console.log(score)
+}
+if ("more-than-half") {
+  score = JSON.parse(2);
+  console.log(score)
+}
+if ("every-day") {
+  score = JSON.parse(3);
   console.log(score)
 }
 else {

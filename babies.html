@@ -121,3 +121,103 @@
                 <h3 id="submit-text">SUBMIT</h3>
             </a>
     </div> -->
+
+
+    // track varaible across multiple file
+let score = localStorage.getItem('score');
+
+if (score) {
+  score = JSON.parse(score);
+  console.log(score)
+}
+else {
+  localStorage.setItem('score', '0');
+  score = localStorage.getItem('score');
+  score = JSON.parse(score);
+}
+
+
+// get the form
+const form = document.querySelector('#form');
+
+// add a submit listener to the form
+form.addEventListener('submit', submitEvent => {
+
+  //stop page from reloading
+  submitEvent.preventDefault();
+
+  // get the value of the radio inputs
+  const answer = submitEvent.target.answer.value;
+  console.log(answer)
+
+  // if the answer is correct increase score
+  localStorage.setItem('score', JSON.stringify(Number(score) + 1));
+
+  // get the next page
+  window.location.href = `quizq${submitEvent.target.page.value}.html`
+})
+
+
+
+// function to calculate the result of the survey
+function tabulateAnswers() {
+  // initialize variables for each choice's score
+  // If you add more choices and outcomes, you must add another variable here.
+  var notatallscore = 0;
+  var severaldaysscore = 0;
+  var morethanhalfscore = 0;
+  var everydayscore = 0;
+  
+  // get a list of the radio inputs on the page
+  var choices = document.getElementsByType('radio');
+  // loop through all the radio inputs
+  for (i=0; i<choices.length; i++) {
+    // if the radio is checked..
+    if (choices[i].checked) {
+      // add 1 to that choice's score
+      if (choices[i].value == 'not-at-all') {
+        notatallscore = notatallscore + 0;
+      }
+      if (choices[i].value == 'several-days') {
+        severaldaysscore = severaldaysscore + 1;
+      }
+      if (choices[i].value == 'more-than-half') {
+        morethanhalfscore = morethanhalfscore + 2;
+      }
+      if (choices[i].value == 'every-day') {
+        everydayscore = everydayscore + 3;
+      }
+    }
+  }
+  
+  // Find out which choice got the highest score.
+  // If you add more choices and outcomes, you must add the variable here.
+  var totalscore = Math.total(notatallscore,severaldaysscore,morethanhalfscore,everydayscore);
+  
+  // Display answer corresponding to that choice
+  var answerbox = document.getElementById('answer');
+  if ( < 4 == totalscore) { // If user chooses the first choice the most, this outcome will be displayed.
+    answerbox.innerHTML = "This is considered to be completely normal, though even people who have returned this result can find it helpful to speak to someone. If you would like us to put you in touch with a counsellor, do please get in touch. We'd be delighted to help.";
+  }
+  if (> 4 < 9 == maxscore) { // If user chooses the second choice the most, this outcome will be displayed.
+    answerbox.innerHTML = "You have been classified as 'mild' on the scale of depression severity. We encourage you go get in touch so that we can advise you towards the appropriate care.";
+  }
+  if (> 9 < 14 == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
+    answerbox.innerHTML = "You have been classified as 'moderate' on the scale of depression severity. We encourage you go get in touch so that we can advise you towards the appropriate care.";
+  }
+  if (> 14 < 19 == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
+    answerbox.innerHTML = "You have been classified as 'moderately severe' on the scale of depression severity. We encourage you go get in touch so that we can advise you towards the appropriate care.";
+  }
+  if (> 19 < 27 == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
+    answerbox.innerHTML = "You have been classified as 'severe' on the scale of depression severity. We encourage you go get in touch so that we can advise you towards the appropriate care.";
+  }
+  // If you add more choices, you must add another response below.
+}
+
+// program the reset button
+function resetAnswer() {
+  var answerbox = document.getElementById('result-blurb');
+}
+
+
+
